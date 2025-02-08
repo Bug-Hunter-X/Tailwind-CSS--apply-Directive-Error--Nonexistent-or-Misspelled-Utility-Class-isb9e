@@ -1,0 +1,14 @@
+/* bug.css */
+.my-element {
+  @apply bg-blud-600; /* Misspelled: bg-blue-600 */
+  @apply text-white;
+}
+
+/* bugSolution.css */
+.my-element {
+  @apply bg-blue-600; /* Correct spelling */
+  @apply text-white;
+}
+
+/* ... rest of your Tailwind CSS configuration ... */
+/* Ensure that bg-blue-600 is correctly defined in your Tailwind config */
